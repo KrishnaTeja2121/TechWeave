@@ -4,7 +4,7 @@
 
 
 
-# 🧠 HN Editor – Local AI Agent for Hacker News
+# 🧠 TechWeave – Local AI Agent for Hacker News
 
 TechWeave is a **local, free AI agent** that curates and summarizes Hacker News into a concise daily briefing.
 
