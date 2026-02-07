@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HN Editor</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+  <h1>🧠 TechWeave</h1>
+  <p>Your personal AI-curated Hacker News briefing</p>
+</header>
+
+<main>
+  {% for story in stories %}
+    <div class="card">
+      <h2>{{ story.title }}</h2>
+      <p>{{ story.summary }}</p>
+      <a href="{{ story.url }}" target="_blank">Read full story →</a>
+    </div>
+  {% endfor %}
+</main>
+
+</body>
+</html>
