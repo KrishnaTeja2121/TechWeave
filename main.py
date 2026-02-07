@@ -15,3 +15,4 @@ for story in ranked[:5]:
     print(f"• {title}")
     print(f"  {summary}")
     print(f"  🔗 {url}\n")
+

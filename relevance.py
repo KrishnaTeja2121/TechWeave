@@ -26,3 +26,5 @@ def relevance_score(story):
     score += min(story.get("descendants", 0) // 20, 5)
 
     return score
+
+

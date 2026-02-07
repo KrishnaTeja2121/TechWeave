@@ -18,3 +18,5 @@ Text:
     )
 
     return result.stdout.strip()
+
+

@@ -15,4 +15,3 @@ def relevance_score(story):
         if domain in url:
             score += 5
 
-    # existing logic continues...
